@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Edad</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    
+</head>
+
+<body>
+    <main class="card">
+        <h1>Calculador de edad</h1>
+
+        <form id="age-form">
+            <label for="birthdate">Ingresa tu fecha de cumpleaños:</label>
+
+            <div class="input-container">
+                <input type="text" id="birthdate" placeholder="DD/MM/YYYY" readonly />
+            </div>
+
+            <button type="submit" id="btn-calculate">Calcular</button>
+        </form>
+
+        <div id="result-container" class="result"></div>
+    </main>
+
+    <script type="module" src="/src/script.js"></script>
+</body>
+
+</html>
